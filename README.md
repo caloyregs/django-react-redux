@@ -163,21 +163,6 @@ We deploy all our production code using Kubernetes. Explaining how to do deploym
 
 Here's a great article from digital ocean on how to deploy django project in a VM: https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04 
 
-
-
-## Screenshots
-
-Here are some screenshots of the boilerplate project.
-
-![Screenshot01][1]  
-
-[1]: ./screenshots/screenshot_01.png
-
-![Screenshot02][2]  
-
-[2]: ./screenshots/screenshot_02.png
-
-
 ## Gotchas in Docker
 
 * This project uses NodeJS v6.x (stable) and yarn
@@ -186,13 +171,3 @@ Here are some screenshots of the boilerplate project.
 * If you are annoyed by docker creating files belonging to root (which is Docker's intended behaviour), you can run `# chown -hR $(whoami) .` before firing up the server.
 
 
-## Contributing
-
-We welcome contributions from the community, given that they respect these basic guidelines:
-
-* All Tests & Static Analysis passing;
-* 100% code coverage;
-
-Prior to any pull-request, we advise to [open an issue](https://github.com/Seedstars/django-react-redux-base/issues). This is because, although we are happy to merge your code, we must make sure the changes don't impact our way of doing things, thus resulting on a declined PR, and your time wasted.
-
-If you want to tackle any open issue, well..... Just go for it! :)
